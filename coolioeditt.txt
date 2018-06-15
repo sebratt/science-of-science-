@@ -1,3 +1,7 @@
 b <- 1+1
 
 c <- "coolio"
+
+d <- c("check me out", 1)
+
+w <- 1 + 2

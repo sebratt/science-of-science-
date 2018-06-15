@@ -1,0 +1,26 @@
+# Useful Git Commands from Lynda.com course Learning Git and Github
+# https://www.lynda.com/Git-tutorials/Working-staging-environment/409275/416548-4.html?
+# autoplay=true
+
+# cd into the directory
+
+cd ~/Desktop/project
+git init # make current working directory a git repo. first time you have to set up credentials
+
+
+ls -la
+
+git add .
+git add file.txt
+
+git checkout coolioeditt.txt # reverts to previous saved and staged file. BAsically an "undo".
+git status
+git commit -m "Committing this revision of coolio file"
+
+git log 
+clear
+
+git reset HEAD "coolioeditt.txt" # takes it out of staging, and replacing it. Take things in staging and overriding it in this environment. It ignores revision 2 altogether. We can miss out on revision two, but sometimes we want to just clear out the staging enviornment, as if you never added anything to the staging enviornment. Telling git we never meant to stage that file. 
+
+
+
