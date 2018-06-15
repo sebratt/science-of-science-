@@ -10,17 +10,25 @@ git init # make current working directory a git repo. first time you have to set
 
 ls -la
 
-git add .
-git add file.txt
+git add . # add files (unsaved usually, with new changes) to the staging environment to prep for commit
+
+git add file.txt # can add specific file like this, too.
 
 git checkout coolioeditt.txt # reverts to previous saved and staged file. BAsically an "undo".
-git status
-git commit -m "Committing this revision of coolio file"
+git status # use this alot!
 
-git log 
+git commit -m "Committing this revision of coolio file" # now we commit to repo, with a message.
+
+git log  # see the changes that were made, date, time file by whom.
 clear
 
 git reset HEAD "coolioeditt.txt" # takes it out of staging, and replacing it. Take things in staging and overriding it in this environment. It ignores revision 2 altogether. We can miss out on revision two, but sometimes we want to just clear out the staging enviornment, as if you never added anything to the staging enviornment. Telling git we never meant to stage that file. 
 
+# Create a repo in GitHub and add all files (do this for RStudio files from iSchool account). 
+git remote add origin remote repository URL
+# Sets the new remote
+git remote -v
+# Verifies the new remote U
 
-
+git push origin master
+# Pushes the changes in your local repository up to the remote repository you specified as the origin

@@ -5,3 +5,5 @@ c <- "coolio"
 d <- c("check me out", 1)
 
 w <- 1 + 2
+
+f <- "hey yo"
