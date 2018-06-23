@@ -8,7 +8,7 @@ cd ~/Desktop/project
 git init # make current working directory a git repo. first time you have to set up credentials
 
 
-ls -la
+ls -la # this lists, (ls) and gives you all the files. 
 
 git add . # add files (unsaved usually, with new changes) to the staging environment to prep for commit
 
