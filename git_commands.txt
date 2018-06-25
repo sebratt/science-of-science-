@@ -32,3 +32,7 @@ git remote -v
 
 git push origin master
 # Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+# user: suid.
+# pw: leah's pw (easiest) oneexclaim.  
+# push q to quit from the git log. 
