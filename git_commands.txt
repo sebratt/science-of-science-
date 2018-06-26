@@ -45,7 +45,39 @@ git push origin master
 git log 
 git checkout #  pull the commit from the log into the working environment. To go back to that version!
 
-git branch #checkout the branches
+git branch #print the existing branches
+
+git branch alternative # create a new branch. 
+
+# Think of branch as sort of a SAVE point. 
+
+# If you want to work on the current branch ("Alternate Universe") - leave the master branch untouched, and play around in another branch. 
+
+git branch app01 # creat the branch app01 
+git checkout app01 # switch to the branch app01 
+
+# Now in this alternative universe, make changes to someCode, save it, then add to the queue. 
+git add . 
+git commit . -m "new revision; app01"
+git log
+
+# To get out of the git log after committing, do cntl + z. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
