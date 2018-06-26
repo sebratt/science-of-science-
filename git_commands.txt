@@ -58,10 +58,43 @@ git checkout app01 # switch to the branch app01
 
 # Now in this alternative universe, make changes to someCode, save it, then add to the queue. 
 git add . 
-git commit . -m "new revision; app01"
+git commit -m "new revision; app01"
 git log
 
 # To get out of the git log after committing, do cntl + z. 
+
+
+git checkout master # go back to the master branch. 
+git log # see how the log doesn't show the changes we made on the app01 branch! Because it is an  # alternative universe. 
+
+# Now we want to bring changed back into master. It merges by bringing everything (changes) from one branch into the current branch: 
+
+git merge app01 # we merge the app01 branch with the master (which we are *master ON currently)
+
+git log # see how the revisions from app01 are now in master. Wowee!
+
+# change the name of the branches: unix uses the -m command (move): Unix does it weird, copy this one to one of another name. 
+
+git branch -m app01 app02 # rename: app01 is the original name app02 is the new name.
+git branch # see the change of name.
+
+# Delete a branch: 
+git branch -d alt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
