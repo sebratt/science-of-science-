@@ -36,3 +36,36 @@ git push origin master
 # user: suid.
 # pw: leah's pw (easiest) oneexclaim.  
 # push q to quit from the git log. 
+
+
+
+
+
+
+git log 
+git checkout #  pull the commit from the log into the working environment. To go back to that version!
+
+git branch #checkout the branches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
